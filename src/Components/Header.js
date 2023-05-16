@@ -10,7 +10,6 @@ function Header() {
                 <div className='qlist'>
                     <ul>
                         <Link to='./'><li>Home</li></Link>
-                        <Link to=''><li>About</li></Link>
                         <Link to='./rejister'><li>Register</li></Link>
                         {/* <Link to='/score'>Score</Link> */}
                     </ul>

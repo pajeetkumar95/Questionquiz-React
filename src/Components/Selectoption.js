@@ -10,8 +10,6 @@ function Selectoption() {
     startquiznavigate('/quizdata')
   }
 
-
-
   return (
     <div className='selectoption'>
             <h1>Select Quiz</h1>

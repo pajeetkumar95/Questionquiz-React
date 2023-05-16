@@ -12,7 +12,10 @@ function Home() {
     e.preventDefault()
       
     let datastored = JSON.parse(localStorage.getItem('details'))
+    // console.log(datastored)
    const newdata =  datastored.filter((data) => data.name === loginuser && data.password === loginpassword )
+
+  //  console.log(newdata)
 
   if(newdata){
     alert("welcome")

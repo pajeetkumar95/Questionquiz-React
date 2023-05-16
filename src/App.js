@@ -6,6 +6,7 @@ import Rejister from './Components/Rejister'
 import Quizdata from './Components/Quizdata'
 import Selectoption from './Components/Selectoption'
 import Score from './Components/Score'
+import Error from './Components/Error'
 import { createContext } from 'react'
 import { useState } from 'react'
 
@@ -28,6 +29,7 @@ function App() {
                         <Route path='/quizdata' element={<Quizdata />}></Route>
                         <Route path='/selectoption' element={<Selectoption />}></Route>
                         <Route path='/score' element={<Score />}></Route>
+                        <Route path='*' element={<Error/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </questiongame.Provider>
