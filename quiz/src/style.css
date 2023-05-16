@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.qheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 1rem;
+}
+
+.qlist ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.qlist ul li {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.qlist a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.qhome {
+    background-image: url('../public/hostory.jpg');
+    height: calc(100vh - 69px);
+    background-size: contain;
+
+}
+
+.qhome form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 6rem 3rem;
+}
+
+.qhome input {
+    margin: 0.50rem 0;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+.qhome button {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+
+.qrform {
+    background-color: #c62070;
+    height: calc(100vh - 69px);
+}
+
+.qrform form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.qrform input {
+    margin: 0.50rem 0;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+.qrform button {
+    margin-left: 6rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+.selectoption {
+    background-color: #c62070;
+    height: 100vh;
+}
+
+.selectquiz {
+    color: #fff;
+    width: 30%;
+    margin: 2rem auto;
+    border: 1px solid;
+    padding: 2rem 0;
+    background-color: #000;
+}
+
+.selectquiz input,
+label {
+    margin: 1rem 0;
+    width: 40%;
+    font-size: 1.5rem;
+
+}
+
+.selectquiz button {
+    margin: 1rem 5rem;
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.selectoption h1 {
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.product {
+    background-color: coral;
+    height: 100vh;
+}
+
+.setproduct {
+    height: 50vh;
+    padding: 2rem 1rem;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid;
+    background-color: #054157;
+}
+
+.setproduct h3 {
+    font-size: 1.5rem;
+}
+
+
+.setproduct ul li {
+    list-style: none;
+    padding: 0.50rem 0;
+    font-size: 1.5rem;
+}
+
+.setproduct button {
+    width: 20%;
+    padding: 0.50rem;
+}
+
+.scoresave {
+    background: linear-gradient(to right, #3c3b3f, #605c3c);
+    height: 90vh;
+    color: #fff;
+}
+
+.score h1 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+@media all and(max-width:800px) {
+    .selectquiz button {
+        font-size: 0.25rem;
+        width: 70%;
+    }
+}
