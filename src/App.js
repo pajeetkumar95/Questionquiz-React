@@ -15,12 +15,12 @@ export const questiongame = createContext(null)
 
 function App() {
 
-    const [score , setScore] = useState(0)
-    const [wronganswer , setWronganswer] = useState([])
+    const [score, setScore] = useState(0)
+    const [wronganswer, setWronganswer] = useState([])
 
     return (
         <div>
-            <questiongame.Provider value={{score , setScore , wronganswer , setWronganswer}}>
+            <questiongame.Provider value={{ score, setScore, wronganswer, setWronganswer }}>
                 <BrowserRouter>
                     <Header />
                     <Routes>
@@ -29,7 +29,7 @@ function App() {
                         <Route path='/quizdata' element={<Quizdata />}></Route>
                         <Route path='/selectoption' element={<Selectoption />}></Route>
                         <Route path='/score' element={<Score />}></Route>
-                        <Route path='*' element={<Error/>}></Route>
+                        <Route path='*' element={<Error />}></Route>
                     </Routes>
                 </BrowserRouter>
             </questiongame.Provider>
