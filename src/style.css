@@ -195,34 +195,34 @@ label {
     .qrform form input{
         padding: 0.50rem 0;
         text-align: center;
-        width: 70%;
-        font-size: 1rem;
-        margin-left:3rem ;
+        width: 40%;
+        font-size: 0.50rem;
+        margin-left: 1rem;
     }
     .qrform form button{
-        font-size: 1rem;
+        font-size: 0.50rem;
         padding: 0.50rem 1rem;
-        margin-left: 8rem;
+        margin-left: 1rem;
     }
 
     .qheader h1{
-        font-size: 1rem;
+        font-size: 0.50rem;
     }
     .qlist ul li{
-        font-size: 1rem;
+        font-size: 0.50rem;
     }
     .qhome form{
         width: 80%;
     }
     .qhome form input{
-        font-size: 1rem;
+        font-size: 0.50rem;
         text-align: center;
         padding: 0.25rem 0rem;
     }
     .qhome button{
         padding: 0.50rem 1rem;
-        font-size: 1rem;
-        margin-left: 3rem;
+        font-size: 0.50rem;
+        margin-left: 1rem;
     }
     .selectoption h1{
         font-size: 1rem;
