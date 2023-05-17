@@ -187,7 +187,7 @@ label {
     }
 }
 
-@media all and (max-width:350px){
+@media all and (max-width:450px){
     .qrform form{
         width: 100%;
     }
